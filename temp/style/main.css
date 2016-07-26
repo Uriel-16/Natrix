@@ -25,13 +25,14 @@ body{
     background-size: 370%;
     background-position: 20px 0px;
 }
-.home_b:hover{
-	background-position: 20px 22px;}
+img+a:hover .home_b{
+	background-position: 20px 22px;
+}
 
 #left_nav a {
 	float: left;
 	list-style: none;
-	display: inline-block;
+	display: block;
 	border-right: 1px solid lightgrey;
 	height: 70px;
 	text-align: center;
@@ -43,11 +44,11 @@ body{
 #left_nav a:first-child{
 	border-right: 0;
 }
-#left_nav a:hover,#right_nav a:hover{
+ #left_nav a:hover,#right_nav a:hover{
 	transition: .4s;
 	background: #bbb;
 	color: gold;
-}
+} 
 #right_nav a{
 	border-left: 1px solid lightgrey;
 	color: black;
@@ -71,8 +72,9 @@ body{
     background-size: 370%;
     background-position: 72px 0px;
 }
-#right_nav .log_b:hover{
-	background-position: 72px 22px;}
+#right_nav a:hover .log_b{background-position: 72px 22px;}
+
+
 #right_nav .sign_b{
 	background: url(../pic/buttons.png), no-repeat;
 	width: 20px;
@@ -82,8 +84,9 @@ body{
     background-position: 47px -1px;
 
 }
-#right_nav .sign_b:hover{
-	background-position: 47px 21px;
+#right_nav a:hover .sign_b{background-position: 47px 21px;
+
+	
 }
 .home_b, .sign_b, .log_b{
 	margin-top: 22px;
