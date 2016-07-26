@@ -12,27 +12,24 @@
 body{
 	font: 14px Arial;
 }
-.t31
+.top_conteiner
  header img{
 	height: 70px;
 	float: left; /*если лого будет ссылкой то удалить + см html*/
 }
-#left_nav .home_b{
-
+.home_b{
 	background: url(../pic/buttons.png), no-repeat;
     width: 20px;
     height: 20px;
     cursor: pointer;
     background-size: 370%;
     background-position: 20px 0px;
-
 }
-#left_nav .home_b:hover{
+.home_b:hover{
 	background-position: 20px 22px;}
 
 #left_nav a {
 	float: left;
-	
 	list-style: none;
 	display: inline-block;
 	border-right: 1px solid lightgrey;
@@ -50,7 +47,6 @@ body{
 	transition: .4s;
 	background: #bbb;
 	color: gold;
-
 }
 #right_nav a{
 	border-left: 1px solid lightgrey;
@@ -68,19 +64,16 @@ body{
 }
 
 #right_nav .log_b{
-
 	background: url(../pic/buttons.png), no-repeat;
 	width: 20px;
     height: 20px;
     cursor: pointer;
     background-size: 370%;
     background-position: 72px 0px;
-
 }
 #right_nav .log_b:hover{
 	background-position: 72px 22px;}
 #right_nav .sign_b{
-
 	background: url(../pic/buttons.png), no-repeat;
 	width: 20px;
     height: 20px;
@@ -96,7 +89,7 @@ body{
 	margin-top: 22px;
 }
 
-.t31 header{
+.top_conteiner header{
 	position: relative;
 	height: 70px;
 	box-shadow: 0 0px 6px #000;
@@ -104,11 +97,11 @@ body{
 	overflow: hidden;
 	min-width: 1280px;
 }
-.t31 section aside.banner{
+.top_conteiner section aside.banner{
 	position: relative;
 	height: 490px;
 }
-.t31 h1{
+.top_conteiner h1{
 	width: 900px;
 	overflow-x: hidden;
 	padding-top: 15px;
@@ -124,14 +117,14 @@ body{
 	content: ' $';
 	font-size: 20px;
 }
-.t31 h2 {
+.top_conteiner h2 {
 	position: absolute;
     top: 32%;
     font-size: 52px;
     font-weight: 100;
     color: #fff;
 }
-.t31 h1 + article{
+.top_conteiner h1 + article{
 	position: absolute;
     width: 250px;
     height: 310px;
@@ -139,10 +132,10 @@ body{
     top: 145px;
 	/*border: 1px dotted red;	*/
 }
-.t31 article img{
+.top_conteiner article img{
 	width: 100%;
 }
-.t31 aside.banner{
+.top_conteiner aside.banner{
 	background: #EFB93B;
 	background-position: 100%;
 	background-image: url(../pic/fon_header.png);
@@ -163,14 +156,14 @@ body{
 .slide:hover{
 	box-shadow: 0 0 2px rgba(0,0,0,.7); 
 }
-.t31 time{
+.top_conteiner time{
 	position: absolute;
 	left:18%;
 	bottom: 25%;
 	font-weight: bold;
 	color: #1D1D1D;
 }
-.t31 h1 + article time{
+.top_conteiner h1 + article time{
 	position: absolute;
 	left:30%;
 	bottom: 15%;
@@ -178,7 +171,7 @@ body{
 	color: #fff;
 	font-size: 24px;
 }
-.t31 button{
+.top_conteiner button{
  	position: absolute;
 	background: #01A74B;
 	height: 20%;
@@ -192,7 +185,7 @@ body{
 	bottom: 5px;
 	cursor: pointer;
 }
-.t31 h2 + button{
+.top_conteiner h2 + button{
 	position: absolute;
 	background: #01A74B;
 	height: 20%;
@@ -205,10 +198,10 @@ body{
 	/*border: 0;*/
 	/*border-bottom: 2px solid #007735;*/
 }
-.t31 button:hover{
+.top_conteiner button:hover{
 	box-shadow: 0 2px 4px rgba(0,0,0,.7); 
 }
-.t31 h3{
+.top_conteiner h3{
 	position: absolute;
 	top: 40%;
 	font: 28px Arial;
@@ -216,7 +209,7 @@ body{
 	font-weight: bold;
 	color:  #1D1D1D
 }
-.t31 body section:last-child{
+.top_conteiner body section:last-child{
 	height: 220px;
 	overflow: hidden;
 }
@@ -261,7 +254,7 @@ body{
 	background-position: 50%;
 }
 
-.t31 ul{
+.top_conteiner ul{
 
 	overflow: hidden;
 	display: flex;
@@ -269,7 +262,7 @@ body{
 	justify-content:  center; space-around;
 
 }
-.t31 ul li{
+.top_conteiner ul li{
 	padding-top: 25px;
 	width: 150px;
 	display: inline-block;
